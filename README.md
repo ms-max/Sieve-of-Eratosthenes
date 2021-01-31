@@ -1,13 +1,12 @@
 # Sieve-of-Eratosthenes
 În matematică, ciurul lui Eratostene - un algoritm simplu de descoperire a tuturor numerelor prime până la un întreg specificat.<br>
-![Ciurul lui Eratostene](https://user-images.githubusercontent.com/69718491/106371390-5cd4cd80-636c-11eb-90fd-28382638bbf9.jpg)<br>
+
 Pentru a rula proiectul accesați acest link: https://repl.it/@Mariaicova/Sieve-of-Eratosthenes
 
 ## 1. SCOPUL
 
 Scopul algoritmului este (determinarea numerelor prime) filtrarea numerelor. Numere prime rămân, iar restul se modifică în zeroouru(se filtrează cu ajutorul ciurului)
-
-![ciurul-lui-eratostene](https://user-images.githubusercontent.com/69718491/106371628-5bf16b00-636f-11eb-9f14-64c9e09f722e.jpg)
+![Ciurul lui Eratostene](https://user-images.githubusercontent.com/69718491/106371390-5cd4cd80-636c-11eb-90fd-28382638bbf9.jpg)<br>
 
 ## 2. Algoritmul
 
@@ -15,6 +14,7 @@ Scopul algoritmului este (determinarea numerelor prime) filtrarea numerelor. Num
 2.Se caută în listă primul număr care nu a fost tăiat (și pe care încă nu l-am folosit).<br>
 3.Se taie de pe foaie toți multiplii numărului ales mai înainte, cu excepția lui.<br>
 4.Dacă încă nu am ajuns la finalul listei căutând numere netăiate, se revine la pasul 2.<br>
+![ciurul-lui-eratostene](https://user-images.githubusercontent.com/69718491/106371628-5bf16b00-636f-11eb-9f14-64c9e09f722e.jpg)<br>
 La final, toate numerele netăiate din listă sunt cele prime. De fiecare dată, numărul găsit la pasul 2 chiar este prim, pentru că, dacă ar fi fost divizibil cu vreun număr prim mai mic decât el, ar fi fost tăiat deja. Apoi, evident că numerele tăiate la pasul 3, fiind divizibile cu un număr prim mai mic decât ele, sunt numere compuse.
 
 ## 3. Screen din program
