@@ -11,13 +11,13 @@ Scopul algoritmului este (determinarea numerelor prime) filtrarea numerelor. Num
 
 ## 2. Algoritmul
 
-1.Se scrie pe o foaie o listă cu toate numerele naturale de la 2 la n.
-2.Se caută în listă primul număr care nu a fost tăiat (și pe care încă nu l-am folosit).
-3.Se taie de pe foaie toți multiplii numărului ales mai înainte, cu excepția lui.
-4.Dacă încă nu am ajuns la finalul listei căutând numere netăiate, se revine la pasul 2.
+1.Se scrie pe o foaie o listă cu toate numerele naturale de la 2 la n.<br>
+2.Se caută în listă primul număr care nu a fost tăiat (și pe care încă nu l-am folosit).<br>
+3.Se taie de pe foaie toți multiplii numărului ales mai înainte, cu excepția lui.<br>
+4.Dacă încă nu am ajuns la finalul listei căutând numere netăiate, se revine la pasul 2.<br>
 La final, toate numerele netăiate din listă sunt cele prime. De fiecare dată, numărul găsit la pasul 2 chiar este prim, pentru că, dacă ar fi fost divizibil cu vreun număr prim mai mic decât el, ar fi fost tăiat deja. Apoi, evident că numerele tăiate la pasul 3, fiind divizibile cu un număr prim mai mic decât ele, sunt numere compuse.
 
-## 3. screen 
+## 3. Screen din program
 
 
 
