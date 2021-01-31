@@ -7,8 +7,7 @@ Pentru a rula proiectul accesați acest link: https://repl.it/@Mariaicova/Sieve-
 
 Scopul algoritmului este (determinarea numerelor prime) filtrarea numerelor. Numere prime rămân, iar restul se modifică în zeroouru(se filtrează cu ajutorul ciurului)
 
-![r2](https://user-images.githubusercontent.com/69718491/102915401-6d9b4500-448a-11eb-90e3-88e79488c17b.jpg)
-![r3](https://user-images.githubusercontent.com/69718491/102915404-6e33db80-448a-11eb-8eb0-0bbabfd110cf.jpg)
+![ciurul-lui-eratostene](https://user-images.githubusercontent.com/69718491/106371628-5bf16b00-636f-11eb-9f14-64c9e09f722e.jpg)
 
 ## 2. Algoritmul
 
@@ -20,8 +19,14 @@ La final, toate numerele netăiate din listă sunt cele prime. De fiecare dată,
 
 ## 3. Screen din program
 
+![](https://user-images.githubusercontent.com/69718491/106371404-a32a2c80-636c-11eb-9bd1-b63b7585127f.jpg)
+<br> Am aflat că e posibil de înlocuit în rîndul nr.13 codul<br>
+for(int s=2; s<N; s++){ 
+<br>cu<br>
+for(int s=2; s*s<N; s++){ <br>
+adică să verificăm până s e mai mic ca radical din N. Am verificat pentru N=100, până la s=7, într-adevăr lucrează!
 
-
+![tabel](https://user-images.githubusercontent.com/69718491/106371633-67dd2d00-636f-11eb-8d08-b78c36101654.jpg)
 
 ## 4. Concluzii
 în urma studierii acestui algoritm am observat că de fiecare dată când se ajunge la pasul 2, algoritmul face n/i pași pentru a tăia numerele compuse multipli de i. În total, asta înseamnă:<br>
