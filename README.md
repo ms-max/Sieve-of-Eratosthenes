@@ -1,5 +1,6 @@
 # Sieve-of-Eratosthenes
 În matematică, ciurul lui Eratostene - un algoritm simplu de descoperire a tuturor numerelor prime până la un întreg specificat.<br>
+![Ciurul lui Eratostene](https://user-images.githubusercontent.com/69718491/106371390-5cd4cd80-636c-11eb-90fd-28382638bbf9.jpg)
 Pentru a rula proiectul accesați acest link: https://repl.it/@Mariaicova/Sieve-of-Eratosthenes
 
 ## 1. SCOPUL
