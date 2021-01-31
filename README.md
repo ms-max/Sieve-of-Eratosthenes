@@ -1,5 +1,5 @@
 # Sieve-of-Eratosthenes
-În matematică, ciurul lui Eratostene - un algoritm simplu de descoperire a tuturor numerelor prime până la un întreg specificat.
+În matematică, ciurul lui Eratostene - un algoritm simplu de descoperire a tuturor numerelor prime până la un întreg specificat.<br>
 Pentru a rula proiectul accesați acest link: https://repl.it/@Mariaicova/Sieve-of-Eratosthenes
 
 ## 1. SCOPUL
@@ -23,12 +23,11 @@ La final, toate numerele netăiate din listă sunt cele prime. De fiecare dată,
 
 
 ## 4. Concluzii
-în urma studierii acestui algoritm am observat că de fiecare dată când se ajunge la pasul 2, algoritmul face n/i pași pentru a tăia numerele compuse multipli de i. În total, asta înseamnă:
-n/2+n/3+n/5+n/7+⋯+n/k.
-(”— Ой! — сказал Фило озадаченно. — Шестерка уже вычеркнута. 
-— Не беда, вычеркнем еще раз.”
-https://math.wikireading.ru/1092)
-Unde k este cel mai mare număr prim mai mic sau egal cu n. Factorizându-l pe n obținem:
-n(1/2+1/3+1/5+1/7+⋯+1/k).
+în urma studierii acestui algoritm am observat că de fiecare dată când se ajunge la pasul 2, algoritmul face n/i pași pentru a tăia numerele compuse multipli de i. În total, asta înseamnă:<br>
+n/2+n/3+n/5+n/7+⋯+n/k.<br>
+(”— Ой! — сказал Фило озадаченно. — Шестерка уже вычеркнута. <br>
+— Не беда, вычеркнем еще раз.” https://math.wikireading.ru/1092)<br>
+Unde k este cel mai mare număr prim mai mic sau egal cu n. Factorizându-l pe n obținem:<br>
+n(1/2+1/3+1/5+1/7+⋯+1/k).<br>
 Al doilea factor, adică suma inverselor numerelor prime până la k, crește la fel de repede ca funcția ln(ln(n)), conform lui Euler. Așadar, complexitatea algoritmului este O(nln(ln(n))).
 Am învățat mai bine algoritmi elementari,    m-a impresionat -  de ce anume așa se numește algoritmul - Ciur. 
